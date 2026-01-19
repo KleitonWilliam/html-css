@@ -1,0 +1,18 @@
+#fundo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black url(imagens/espaco.jpg) center center ;
+    background-size: cover;
+}
+div{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background: transparent url(imagens/astronauta.png);
+    background-size: cover;
+}
