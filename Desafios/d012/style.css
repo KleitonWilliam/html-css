@@ -28,6 +28,51 @@ header>p{
     color: white;
     text-align: center;
 }
+strong:hover{
+    color: red;
+}
+.p{
+    padding-top: 10px;
+}
 p{
+    padding: 0px 40px;
     font-family: var(--fonte2);
+    font-size: 2.5vw;
+}
+section{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    border: black ;
+}
+.flor{
+    min-height: 40%;
+    background: white url(imagens/background001.jpg)  center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.flor>p{
+    margin: 0px;
+    width: 37%;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 20px 40px;
+    color: white;
+}
+.folha{
+    background: white url(imagens/background002.jpg)  center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.folha>p{
+    margin: 0px;
+    width: 37%;
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 20px 40px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+#final{
+    padding-bottom: 10px;
 }
