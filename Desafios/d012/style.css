@@ -32,10 +32,10 @@ strong:hover{
     color: red;
 }
 .p{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 p{
-    padding: 0px 40px;
+    padding: 15px 0px 15px 40px;
     font-family: var(--fonte2);
     font-size: 3vw;
 }
@@ -74,7 +74,7 @@ body{
     background-color: black;
 }
 #final{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 footer{
     color: white;
