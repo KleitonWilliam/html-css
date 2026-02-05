@@ -48,25 +48,25 @@ section{
     border: black ;
 }
 .flor{
-    background: white url(imagens/background001.jpg)  center center no-repeat;
+    background: white url(imagens/background001.jpg)  right center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .flor>p{
     margin: 0px;
-    width: 400px;
+    width: 40vh;
     background-color: rgba(0, 0, 0, 0.322);
     padding: 20px 40px;
     color: white;
 }
 .folha{
-    background: white url(imagens/background002.jpg)  center center no-repeat;
+    background: white url(imagens/background002.jpg)  right center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .folha>p{
     margin: 0px;
-    width: 400px;
+    width: 40vh;
     background-color: rgba(0, 0, 0, 0.329);
     padding: 20px 40px;
     color: white;
