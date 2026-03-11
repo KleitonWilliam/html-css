@@ -1,4 +1,7 @@
 @charset "UTF-8";
+h1{ 
+    text-align: center;
+}
 table {
     border-collapse: collapse;
     margin: auto;
@@ -9,4 +12,15 @@ td {
     border: 1px solid black;
     padding: 10px;
 
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    padding: 10px;
+    text-align: right;
+}
+a:hover{
+    color: rgb(14, 14, 80);
+    background-color: gray;
 }
