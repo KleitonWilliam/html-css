@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{ 
     text-align: center;
 }
@@ -6,12 +9,16 @@ table {
     border-collapse: collapse;
     margin: auto;
     text-align: center;
-    width: 400px;
+    width: 60%;
 }
-td {
+td, th {
     border: 1px solid black;
     padding: 10px;
 
+}
+.total{
+    text-align: left;
+    background-color: gray;
 }
 a{
     text-decoration: none;
@@ -22,5 +29,8 @@ a{
 }
 a:hover{
     color: rgb(14, 14, 80);
+    background-color: gray;
+}
+thead{
     background-color: gray;
 }

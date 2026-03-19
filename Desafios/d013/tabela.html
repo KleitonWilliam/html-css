@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Notas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Total</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>10</td>
+                <td>2</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>9</td>
+                <td>3</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>6</td>
+                <td>6</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>5</td>
+                <td>7</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="total" scope="row">Total de Exatas</th>
+                <th style="background-color: gray;">48</th>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>Historia</td>
+                <td>4</td>
+                <td>8</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>2</td>
+                <td>10</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="total" scope="row">Total de Humanas</th>
+                <th style="background-color: gray;">24</th>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
