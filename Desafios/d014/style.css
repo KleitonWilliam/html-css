@@ -4,7 +4,7 @@ html {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+    margin: 0px;
 }
 #full {
     height: 70vh;
@@ -28,10 +28,8 @@ body {
     width: 264px;
 }
 #social {
-    height: 12vh;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #social img {
     width: 50px;
