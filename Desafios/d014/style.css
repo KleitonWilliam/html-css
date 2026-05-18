@@ -6,19 +6,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
-#full {
-    height: 70vh;
-    position: relative;
-}
 #cell {
+    display: flex;
+    justify-self: center;
     background-size: cover;
-    position: absolute;
     height: 627px;
     width: 310px;
-    background:fixed  url(img/cell.png)  ;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background:  url(img/cell.png) no-repeat;
 }
 #tela {
     position: relative;
