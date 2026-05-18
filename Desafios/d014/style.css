@@ -28,7 +28,9 @@ body {
     width: 264px;
 }
 #social {
-    text-align: right;
+    text-align: left;
+    position: fixed;
+    left: 87%;
 }
 #social img {
     width: 50px;
