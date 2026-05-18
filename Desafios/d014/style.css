@@ -28,8 +28,10 @@ body {
     width: 264px;
 }
 #social {
-    display: flex;
-    justify-content: center;
+    height: 12vh;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 #social img {
     width: 50px;
