@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgreen;
+    height: 100vh;
+
+}
+#tudo {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    margin: 20px auto;
+}
+label {
+    font-size: 20px;
+}
+#sx{
+    flex-direction: row;
+}
+#sx > label {
+    font-size: 16px;
+}
+#sx > input {
+    margin-right: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#esporte {
+    width: 50vw;
+    font-size: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+#esporte > label{
+    font-size: 16px;
+    padding: 5px;
+}
+#esporte > input {
+    margin-right: 40px;
+}
+#esporte > label, #esporte > input {
+    margin-bottom: 10px;
+}

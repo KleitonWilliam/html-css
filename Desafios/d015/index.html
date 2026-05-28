@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tudo">
+        <form action="cadastro.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="sname">Sobrenome:</label>
+            <input type="text" id="sname" name="sname" required>
+            
+            <label for="idade">idade:</label>
+            <input type="range" id="idade" name="idade" required min="1" max="120"
+            value="25"
+            oninput="this.nextElementSibling.value = this.value">
+            <output for="idade" id="idade-output">25</output>
+
+            <label for="sex">sexo:</label>
+
+            <div id="sx">
+                <label for="masc">Masculino</label>
+                <input type="radio" id="masc" name="sexo" value="masculino">
+                <label for="fem">Feminino</label>
+                <input type="radio" id="fem" name="sexo" value="feminino">
+            </div>
+
+            <form action="cadastro.php" method="post" id="esporte">
+                <label >Esportes:</label>
+                <div id="esporte">
+                    <label for="1esporte">Futebol</label>
+                    <input type="checkbox" id="1esporte" name="esporte" value="futebol">
+                    <label for="2esporte">Basquete</label>
+                    <input type="checkbox" id="2esporte" name="esporte" value="basquete">
+                    <label for="3esporte">Vôlei</label>
+                    <input type="checkbox" id="3esporte" name="esporte" value="volei">
+                    <label for="4esporte">Tênis</label>
+                    <input type="checkbox" id="4esporte" name="esporte" value="tenis">
+                    <label for="5esporte">Natação</label>
+                    <input type="checkbox" id="5esporte" name="esporte" value="natacao">
+                    <label for="6esporte">Handebol</label>
+                    <input type="checkbox" id="6esporte" name="esporte" value="handebol">
+                    <label for="7esporte">Ciclismo</label>
+                    <input type="checkbox" id="7esporte" name="esporte" value="ciclismo">
+                </div>
+
+            </form>
+            
+
+        </form>
+    </div>
+</body>
+</html>
