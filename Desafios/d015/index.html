@@ -22,6 +22,9 @@
             oninput="this.nextElementSibling.value = this.value">
             <output for="idade" id="idade-output">25</output>
 
+            <label for="nacimento">Data de Nascimento:</label>
+            <input type="date" id="nacimento" name="nacimento" required>
+
             <label for="sex">sexo:</label>
 
             <div id="sx">
@@ -69,8 +72,23 @@
                     </ul>
                 </div>
                 <label for="jogos">Jogos Eletrônicos:</label>
-                <input type="text" id="jogos" name="jogos">
-
+                <select id="jogos" name="jogos" required>
+                    <option value="fortnite">Fortnite</option>
+                    <option value="minecraft">Minecraft</option>
+                    <option value="callofduty">Call of Duty</option>
+                    <option value="leagueoflegends">League of Legends</option>
+                    <option value="mario">Mario</option>
+                    <option value="sonic">Sonic</option>
+                    <option value="valorant">Valorant</option>
+                    <option value="gta">GTA V</option>
+                    <option value="fifa">FIFA 21</option>
+                    <option value="jakanddaxter">Jak and Daxter</option>
+                    <option value="godofwar">God of War</option>
+                    <option value="zelda">The Legend of Zelda</option>
+                
+                </select>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
             </form>
             
 
