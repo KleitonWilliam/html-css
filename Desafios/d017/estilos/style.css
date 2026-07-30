@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    background-color: gray;
+}
+
+#menu{
+    background-color: gray;
+}
+
+ul {
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    padding: 13px;
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#menu a:hover{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#conteudo{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+p{
+    text-align: justify;
+    padding: 7px;
+    color: black;
+}
