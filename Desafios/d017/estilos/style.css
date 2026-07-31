@@ -14,8 +14,23 @@ h1{
     background-color: gray;
 }
 
-#menu{
+#bur{
+    text-align: center;
+    display: block;
+    font-size: 30px;
     background-color: gray;
+    cursor: pointer;
+}
+
+#bur:hover{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    transition: 0.5s;
+}
+
+#nav{
+    background-color: gray;
+    display: none;
 }
 
 ul {
@@ -24,7 +39,7 @@ ul {
 
 li{
     list-style: none;
-    padding: 13px;
+    padding: 7px;
     background-color: gray;
 }
 
@@ -32,9 +47,10 @@ a {
     text-decoration: none;
     color: black;
     padding: 10px;
+    display: block;
 }
 
-#menu a:hover{
+#nav a:hover{
     background-color: rgb(54, 54, 54);
     color: white;
     transition: 0.5s;
