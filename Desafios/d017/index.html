@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos/estilo.css">  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
-<body>
+<body onresize="mudoTamanho()">
     <h1>Menu de Navegação</h1>
     <i id="bur" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
     <div id="nav">
@@ -28,6 +28,13 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore recusandae earum, repellat saepe quasi doloribus quos cumque voluptas esse in. Voluptatibus non blanditiis suscipit sit molestiae? Voluptate dolorum aperiam neque?Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
     </div>
     <script>
+        function mudoTamanho() {
+            if (window.innerWidth >= 700) {
+                nav.style.display = "block";
+            } else {
+                nav.style.display = "none";
+            }
+        }
         function clickMenu() {
             if (nav.style.display == "block") {
                 nav.style.display = "none";
