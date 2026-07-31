@@ -1,20 +1,23 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border;
 }
+body {
+    background-color: rgb(197, 197, 197);
+}
 
-h1{
+h1 {
     text-align: center;
     padding: 20px;
     color: black;
     background-color: gray;
 }
 
-#bur{
+#bur {
     text-align: center;
     display: block;
     font-size: 30px;
@@ -22,13 +25,13 @@ h1{
     cursor: pointer;
 }
 
-#bur:hover{
+#bur:hover {
     background-color: rgb(54, 54, 54);
     color: white;
     transition: 0.5s;
 }
 
-#nav{
+#nav {
     background-color: gray;
     display: none;
 }
@@ -37,7 +40,7 @@ ul {
     text-align: center;
 }
 
-li{
+li {
     list-style: none;
     padding: 7px;
     background-color: gray;
@@ -50,24 +53,28 @@ a {
     display: block;
 }
 
-#nav a:hover{
+#nav a:hover {
     background-color: rgb(54, 54, 54);
     color: white;
     transition: 0.5s;
     border-radius: 10px;
 }
 
-#conteudo{
+#conteudo {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.705);
+    border-radius: 10px;
+    background-color: white;
     width: 80vw;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
-h2{
+h2 {
     text-align: center;
     padding: 10px;
     color: black;
 }
-p{
+p {
+    text-indent: 15px;
     text-align: justify;
     padding: 7px;
     color: black;
