@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-image: linear-gradient(to left, #1b1f21 60%, var(--azul));
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        background-image: linear-gradient(to left, #1b1f21 60%, var(--azul));
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-image: linear-gradient(to left, #1b1f21 60%, var(--azul));
+    }
+}
