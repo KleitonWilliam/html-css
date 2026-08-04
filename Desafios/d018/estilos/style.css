@@ -31,6 +31,7 @@ body{
     width: 95vw;
     background-color: #fff;
     border-radius: 0px 0px 10px 10px;
+    transition: width 0.3s ease, height 0.3s ease;
 }
 
 #cavegreen {
@@ -38,6 +39,7 @@ body{
     margin: auto;
     width: 95vw;
     height: 200px;
+    transition: width 0.3s , height 0.3s;
 }
 
 h1 {

@@ -20,7 +20,7 @@
     #cavegreen {
         border-radius: 0px 10px 10px 0px;
         width: 400px;
-        height: 250px;
+        height: 300px;
     }
 
 }
@@ -50,7 +50,7 @@
     #cavegreen {
         border-radius: 0px 10px 10px 0px;
         width: 500px;
-        height: 350px;
+        height: 400px;
     }
 
     input{
@@ -79,7 +79,7 @@
 
     #login-container {
         width: 600px;
-        height: 400px;
+        height: 430px;
         border-radius: 10px 0px 0px 10px;
     }
 
@@ -92,7 +92,7 @@
     #cavegreen {
         border-radius: 0px 10px 10px 0px;
         width: 600px;
-        height: 400px;
+        height: 430px;
     }
     
 
