@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
-    <script src="menu.js"></script>
     <title>Video Games</title>
 </head>
 <body>
@@ -113,5 +112,18 @@
             </div>
         </div>
     </div>
+    <script>
+        function mostrarConteudo(id) {
+            // Esconde todos os conteúdos
+            document.getElementById('nintendinho').style.display = 'none';
+            document.getElementById('supernintendo').style.display = 'none';
+            document.getElementById('nintendo64').style.display = 'none';
+            document.getElementById('playstation').style.display = 'none';
+            document.getElementById('playstation2').style.display = 'none';
+
+            // Mostra o conteúdo selecionado
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
 </body>
 </html>
