@@ -108,3 +108,7 @@ img {
     background-color: black;
     border-radius: 5px 5px 0px 0px;
 }
+
+.uimg {
+    padding: 50px;
+}
