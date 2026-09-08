@@ -1,13 +1,21 @@
 @charset "UTF-8";
 
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
+@media (min-width: 768px) {
+    
+    #conteudo {
+        width: 800px;
+        display: flex;
     }
-
-    .card {
-        width: 90%;
-        margin-bottom: 20px;
+    p {
+        width: 400px;
+        display: inline-block;
     }
+    img {
+        display: inline-block;
+        padding-left: 50px;
+    }
+    .uimg {
+        padding-bottom: 0px;
+    }
+    
 }
