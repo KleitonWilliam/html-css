@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+}
+
+div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(98, 203, 238);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #0000007e;
+}
+
+.item {
+    color: white;
+    flex: 170px;
+    height: 100px;
+    background-color: #0000f7;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px #0000007e;
+}
