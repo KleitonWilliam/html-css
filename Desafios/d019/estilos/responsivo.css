@@ -4,8 +4,8 @@
     
     #conteudo {
         width: 800px;
-        display: flex;
     }
+    
     p {
         width: 400px;
         display: inline-block;
