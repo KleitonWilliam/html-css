@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.item{
+    background-color: cyan;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    border: 2px solid white;
+}
+
+.item:hover{
+    background-color: rgb(3, 185, 185);
+}
+
