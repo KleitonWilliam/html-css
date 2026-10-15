@@ -20,7 +20,7 @@ header {
     margin-bottom: 0px;
 }
 
-ul {
+.menu ul {
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
@@ -72,6 +72,20 @@ img{
 
 img:hover {
     box-shadow: 0px 0px 20px #1e0ff0;
+}
+
+.social {
+    display: none;
+    justify-content: center;
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social a{
+    color: var(--cor-texto);
 }
 
 .descricao {

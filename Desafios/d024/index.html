@@ -22,11 +22,28 @@
     </header>
     <div id="conteiner">
         <div class="perfil">
-            <img src="imagens/android-chrome-512x512.png" alt="foto de perfil">
+            <img src="imagens/android-chrome-512x512.png" alt="foto de perfil" onclick="social()">
             <h2>Kleiton William</h2>
             <p>Estudante de Desenvolvimento Web</p>
+            <div class="social">
+                <ul>
+                    <li><a href="https://github.com/KleitonWilliam" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.facebook.com/kleiton.carvalho.5688/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/@thekleiton9447" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
             <p class="descricao">Sou Kleiton William, estudante de HTML e CSS que busca aprimorar minhas habilidades no desenvolvimento de websites.Vou começar a estudar javascript, logo estarei pronto para trabalhar como programador.</p>
         </div>
     </div>
 </body>
+<script>
+    function social() {
+            if (document.querySelector('.social').style.display == "block") {
+                document.querySelector('.social').style.display = "none";
+            } else {
+                document.querySelector('.social').style.display = "block";
+            }
+    }
+</script>
 </html>
