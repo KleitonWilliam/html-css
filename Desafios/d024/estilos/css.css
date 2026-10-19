@@ -17,8 +17,11 @@
 }
 
 header {
-    background-color: var(--cor-principal);
+    background-color: var(--cor-texto2);
     margin-bottom: 0px;
+}
+.menu{
+    background-color: var(--cor-principal);
 }
 
 .menu ul {
@@ -53,6 +56,10 @@ a {
     grid-template: 710px auto auto / auto 80vw auto;
 }
 
+#titulo {
+    width: 80vw;
+    margin: auto;
+}
 h1 {
     width: 100%;
     font-size: 30px;
