@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 786px) {
+    #conteiner {
+        grid-template: auto auto auto/ 450px 1fr;
+    }
+    #titulo {
+        margin: 5px 10px 0px 10px;
+        width: 430px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .perfil {
+        grid-area: 1 / 1 / 2 / 2;
+        margin: 0px 10px 10px 10px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #tecnologias {
+        grid-area: 1 / 2 / 3 / 3;
+    }
+    .projetos-conteiner {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 1fr 1fr;
+    }
+    .projeto>img {
+        margin: auto;
+    }
+    .texto {
+        max-width: 300px;
+    }
+}
