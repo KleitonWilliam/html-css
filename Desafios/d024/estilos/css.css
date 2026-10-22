@@ -73,7 +73,7 @@ h1 {
 
 .perfil {
     padding: 20px;
-    height: 600px;
+    height: auto;
     background-color: var(--cor-fundo);
     grid-area: 1 / 2 / 2 / 2;
     text-align: center;
