@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 786px) {
     #conteiner {
-        grid-template: auto auto auto/ 450px 1fr;
+        grid-template: auto auto auto/ 450px 1fr 10px;
     }
     #titulo {
         margin: 5px 10px 0px 10px;
@@ -13,9 +13,16 @@
         grid-area: 1 / 1 / 2 / 2;
         margin: 0px 10px 10px 10px;
         border-radius: 0px 0px 10px 10px;
+        position: sticky;
+        top: 60px;
     }
     #tecnologias {
         grid-area: 1 / 2 / 3 / 3;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .re{
+        border-radius: 10px 10px 0px 0px;
     }
     .projetos-conteiner {
         display: grid;
